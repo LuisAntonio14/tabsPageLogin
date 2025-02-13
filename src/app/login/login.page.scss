@@ -1,0 +1,87 @@
+ion-content {
+  --ion-background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main {
+  padding-top: env(safe-area-inset-top, 20px);
+  padding-bottom: env(safe-area-inset-bottom, 40px);
+}
+
+ion-card {
+  --background: rgb(222, 222, 222);
+  max-width: 220px; 
+  padding: 10px; 
+  text-align: center;
+  width: 100%;
+  border-radius: 12px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+ion-card-title {
+  font-size: 14px; 
+  color: rgb(60, 60, 60);
+  margin-bottom: 8px;
+}
+
+.correo{
+    font-size: 10px; 
+    color: rgb(60, 60, 60);
+    margin: 3px 0;
+    padding-right: 160px;
+}
+.contra{
+  font-size: 10px; 
+  color: rgb(60, 60, 60);
+  margin: 3px 0;
+  padding-right: 140px;
+}
+
+ion-input {
+  width: 100%;
+  --background: rgb(255, 255, 255);
+  --color: black;
+  font-size: 10px; 
+  padding: 6px;
+  height: 30px; 
+  margin-bottom: 8px;
+}
+
+ion-button {
+  --background: rgb(114, 0, 0);
+  --color: rgb(255, 255, 255);
+  margin-top: 8px;
+  border-radius: 12px;
+  font-size: 10px; 
+  width: 100%;
+  height: 30px; 
+}
+
+.image-container {
+  width: 60px; 
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+ion-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "practica_tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

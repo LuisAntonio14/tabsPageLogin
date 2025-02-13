@@ -1,0 +1,22 @@
+<app-header [titulo]="'Hola'"></app-header>
+
+<ion-content [fullscreen]="true">
+ 
+  <br><br>
+  <ion-checkbox>Acepto los términos, condiciones y nomás</ion-checkbox><br>
+  <ion-checkbox>Antecedentes penales</ion-checkbox>
+  <br>
+  <ion-checkbox>Alergias</ion-checkbox>
+  <br><br>
+  <ion-button id="present-alert">Apachurra el boton</ion-button>
+  <ion-alert
+    trigger="present-alert"
+    header="¿Por qué?"
+    subHeader="No tienes que hacer caso"
+    message="Ahora estarás afiliado al pan, partido verde y nueva alianza jajaja."
+    [buttons]="alertButtons"
+  ></ion-alert>
+  <ion-button (click)="irALogin()">Ir a Login</ion-button>
+
+</ion-content>
+
